@@ -5,7 +5,7 @@
 	<Color name="Foreground" foreground="#A8B5D0"/>
 	<Color name="Punctuation" foreground="#A8B5D0"/>
 	<Color name="MethodCall" foreground="#74B3FB"/>
-	<Color name="Literals" foreground="#FFC600"/>
+	<Color name="Literals" foreground="#E9B684"/>
 	<Color name="Keywords" foreground="#D49FF4"/>
 	<Color name="Escapes" foreground="#59F2F7"/>
 
@@ -59,6 +59,8 @@
 		<Keywords color="Literals">
 			<Word>true</Word>
 			<Word>false</Word>
+			<Word>nil</Word>
+			<Word>game</Word>
 		</Keywords>
 
 		<Keywords color="Keywords">
@@ -149,11 +151,6 @@
 			<Word>debug.setmetatable</Word>
 			<Word>debug.getregistry</Word>
 			<Word>debug.getinfo</Word>
-			<Word>game</Word>
-		</Keywords>
-
-		<Keywords color="Literals">
-			<Word>nil</Word>
 		</Keywords>
 
 		<!-- Digits -->
